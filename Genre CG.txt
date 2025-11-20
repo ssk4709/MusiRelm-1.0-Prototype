@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Genres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://images8.alphacoders.com/131/thumb-1920-1319775.jpeg");
+            background-color: #cccccc;
+        }
+        
+        header {
+            background-color: #2e383d;
+            color: #dad8d8;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+         
+        header .logo {
+            margin-left: 20px; 
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            margin-top: 20px;
+        }
+        
+        p {
+            text-align: left;
+            color: #ffffff;
+        }
+
+        .genre-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            width: 90%;
+        }
+
+        .genre {
+            background-color: #1f1f20;
+            color: white;
+            font-size: 16px;
+            margin: 5px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .genre:hover {
+            background-color: #e5e5e5;
+            color: #1f1f20;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo"> 
+        <h1>Music Genres</h1>
+    </div>
+</header>
+
+<p>Following is the list of Music Genres containing myriad types of music genres</p>
+
+<div class="genre-container">
+    <div class="genre"><a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Rock Genre Table 2.html">Rock</a></div>
+
+    <div class="genre"><a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\Pop Genre.html">Pop</a></div>
+
+    <div class="genre"><a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rap Genre\Rap Genre Table.html" style="color: white; text-decoration: none;">Rap</a></div>
+</div>
+
+
+</body>
+</html>

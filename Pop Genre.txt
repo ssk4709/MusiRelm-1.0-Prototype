@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artists Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.pinimg.com/736x/54/9c/a7/549ca7c2311af764eca3b3f99236eb9f.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Artists Section */
+        .artists-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .artists-section h3 {
+            font-size: 28px;
+            color: #fbfbfb;
+        }
+
+        .artists-list {
+            display: flex;
+            flex-wrap: wrap; /* Ensures responsiveness */
+            justify-content: center; /* Centers the items */
+            gap: 20px; /* Adds spacing between items */
+        }
+
+        .artists {
+            background-color: #000;
+            text-align: center;
+            padding: 15px;
+            width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .artists:hover {
+            transform: scale(1.05);
+        }
+
+        .artists img {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+        }
+
+        .artists h4 {
+            font-size: 18px;
+            margin-top: 15px;
+            color: #efefef;
+        }
+
+        .artists a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1><b>Pop</b></h1>
+            <h2></h2>
+            <p>This webpage contains all the artists that come under the Pop Music genre</p>
+    </header>
+
+    <!-- Artists Section -->
+    <section class="artists-section">
+        <div class="artists-list">
+
+            <div class="artists">
+                <img src="https://i.pinimg.com/736x/c6/30/a7/c630a742eac394b15ed44f9fecb7f186.jpg" alt="50 Cent">
+                <a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\50 Cent ( AP ).html">
+                    <h4>50 Cent</h4>
+                </a>
+            </div>
+            
+             <div class="artists">
+                <img src="https://i.pinimg.com/736x/00/4d/c6/004dc65d1e7ffae6267efae9bb274a5e.jpg" alt="Alan Walker">
+                <a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\Alan Walker ( AP ).html">
+                    <h4>Alan Walker</h4>
+                </a>
+            </div>
+
+            <div class="artists">
+                <img src="https://i.pinimg.com/736x/63/49/34/6349344bad1a52b3f78446309a5747de.jpg" alt="Billie Eilish">
+                <a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\Billie Eilish ( AP ).html">
+                    <h4>Billie Eilish</h4>
+                </a>
+            </div>
+
+            <div class="artists">
+                <img src="https://i.pinimg.com/736x/64/a6/aa/64a6aa66a7eb160b5d33416983a6066b.jpg" alt="Bruno Mars">
+                <a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\Bruno Mars ( AP ).html">
+                    <h4>Bruno Mars</h4>
+                </a>
+            </div>
+
+            <div class="artists">
+                <img src="https://i.pinimg.com/736x/4b/7b/c9/4b7bc96c63cb960f1ae5eaac08cec28f.jpg" alt="Ed Sheeran">
+                <a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\Ed Sheeran ( AP ).html">
+                    <h4>Ed Sheeran</h4>
+                </a>
+            </div>
+          
+            <div class="artists">
+                <img src="https://i.pinimg.com/736x/d0/c6/da/d0c6da4df1632679bd5417f12cfbaa3a.jpg" alt="Justin Bieber">
+                <a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\Justin Bieber ( AP ).html">
+                    <h4>Justin Bieber</h4>
+                </a>
+            </div>
+
+            <div class="artists">
+                <img src="https://i.pinimg.com/736x/31/7e/89/317e89b3ecc36308ba95ee4f68779fe8.jpg" alt="Owl City">
+                <a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\Owl City  ( AP ).html">
+                    <h4>Owl City</h4>
+                </a>
+            </div>
+
+            <div class="artists">
+                <img src="https://i.pinimg.com/736x/ac/15/09/ac1509bee69a59936fca8a98d3077c4a.jpg" alt="The Weeknd">
+                <a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\The Weekend ( AP ).html">
+                    <h4>The Weekend</h4>
+                </a>
+            </div>
+
+             <div class="artists">
+                <img src="https://i.pinimg.com/736x/5b/a6/a2/5ba6a2de8d47185159a6a463b2bb3339.jpg" alt="Vanessa Carlton">
+                <a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Pop Genre\Vanessa Carlton ( AP ).html">
+                    <h4>Vanessa Carlton</h4>
+                </a>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
