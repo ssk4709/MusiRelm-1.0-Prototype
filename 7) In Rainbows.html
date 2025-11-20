@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song List with Audio Player</title>
+    <link rel="stylesheet" href="Pablo Honey.css">
+    <style>
+        /* Apply background image to body */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://picfiles.alphacoders.com/462/thumb-1920-462344.jpg');
+            background-size: cover; 
+            background-position: center;
+            background-attachment: fixed; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Dark background with some transparency */
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            justify-content: center; /* Center the table */
+        }
+
+        table {
+            width: 70%; /* Limit the table width to 70% of the screen */
+            max-width: 900px; /* Maximum width of the table */
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+            background-color: rgba(0, 0, 0, 0.6); /* Transparent black background for the cells */
+            color: white;
+        }
+
+        th {
+            background-color: rgba(0, 0, 0, 0.8); /* Darker transparent background for the header */
+        }
+
+        td audio {
+            width: 100%; /* Make audio player responsive to the width of the table cell */
+            max-width: 300px; /* Limit max width of the audio player */
+        }
+
+        /* Make the audio player better fit the width */
+        td {
+            width: 33%; /* Make each cell take up equal space */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Album List - In Rainbows : Radiohead</h1>
+        <p>The In Rainbows is the Seventh album by Radiohead in 2007</p>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Song Name</th>
+                    <th>Album Name</th>
+                    <th>Play</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01. 15 Step</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\01. 15 Step.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>02. Boysnatchers</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\02. Bodysnatchers.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>03. Nude</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\03. Nude.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>04. Weird FishesArpeggi</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\04. Weird FishesArpeggi.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>05. All I Need</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\05. All I Need.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>06. Faust Arp</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\06. Faust Arp.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>07. Reckoner</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\07. Reckoner.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>08. House Of Cards</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\08. House of Cards.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>09. Jigsaw Falling Into Place</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\09. Jigsaw Falling Into Place.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>10. Videotape</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\10. Videotape.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>11. MK 1</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\11. MK 1.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                 <tr>
+                    <td>12. Down Is The New Up</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src=>
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                 <tr>
+                    <td>13. Go Slowly</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\13. Go Slowly.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>14. MK 2</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\14. MK 2.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>15. Last Flowers</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\15. Last Flowers.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>16. Up on the Ladder</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\16. Up on the Ladder.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>17. Bangers + Mash</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\17. Bangers + Mash.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                 <tr>
+                    <td>18. 4 Minute Warning</td>
+                    <td>In Rainbows</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\07. In Rainbows (2007)\In Rainbows\18. 4 Minute Warning.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

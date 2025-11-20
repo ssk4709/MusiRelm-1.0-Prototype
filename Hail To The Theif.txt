@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song List with Audio Player</title>
+    <link rel="stylesheet" href="Hail To The Theif(CSS).css">
+    <style>
+        /* Apply background image to body */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://static1.squarespace.com/static/56858337cbced60d3b293aef/568d70177086d7180fc3bbe5/5b19c30f03ce64437a844850/1717901095833/Albumism_Radiohead_HailToTheThief_MainImage_2x1.jpg?format=1500w');
+            background-size: cover; 
+            background-position: center;
+            background-attachment: fixed; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Dark background with some transparency */
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            justify-content: center; /* Center the table */
+        }
+
+        table {
+            width: 70%; /* Limit the table width to 70% of the screen */
+            max-width: 900px; /* Maximum width of the table */
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+            background-color: rgba(0, 0, 0, 0.6); /* Transparent black background for the cells */
+            color: white;
+        }
+
+        th {
+            background-color: rgba(0, 0, 0, 0.8); /* Darker transparent background for the header */
+        }
+
+        td audio {
+            width: 100%; /* Make audio player responsive to the width of the table cell */
+            max-width: 300px; /* Limit max width of the audio player */
+        }
+
+        /* Make the audio player better fit the width */
+        td {
+            width: 33%; /* Make each cell take up equal space */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Album List - Hail To The Theif : Radiohead</h1>
+        <p>The OK Computer is the Sixth album by Radiohead in 1997</p>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Song Name</th>
+                    <th>Album Name</th>
+                    <th>Play</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01. 2 + 2 = 5</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\01. 2 + 2  5.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>02. Sit Down. Stand Up</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\02. Sit Down. Stand Up.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>03. Sail To The Moon</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\03. Sail To The Moon.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>04. Backdrifts</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\04. Backdrifts.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>05. Go To Sleep</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\05. Go To Sleep.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>06. Where I End and You Begin</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\06. Where I End and You Begin.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>07. We Suck Young Blood</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\07. We Suck Young Blood.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>08. The Gloaming</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\08. The Gloaming.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>09. There, There</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\09. There, There.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>10. I Will</td>
+                    <td>Hail To The Thief</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\10. I Will.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>11. A Punch Up at a Wedding</td>
+                    <td>Hail To The Theif</td>
+                    <td><audio controls>
+                        <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\11. A Punch Up at a Wedding.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                      <td>12. Myxomatosis</td>
+                      <td>Hail To The Theif</td>
+                      <td><audio controls>
+                          <source src="I:\Radiohead Artist Page ( AP )\06. Hail To The Theif (2003)\Hail To The Theif\12. Myxomatosis.mp3">
+                         Your browser does not support the audio element.
+                      </audio></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

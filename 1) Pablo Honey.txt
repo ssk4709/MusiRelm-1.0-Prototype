@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song List with Audio Player</title>
+    <link rel="stylesheet" href="Pablo Honey.css">
+    <style>
+        /* Apply background image to body */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://static1.squarespace.com/static/56858337cbced60d3b293aef/568d70177086d7180fc3bbe5/63f0162617b1a74f7144ece4/1708576575617/Albumism_Radiohead_PabloHoney_MainImage_2x1.jpg?format=1500w');
+            background-size: cover; 
+            background-position: center;
+            background-attachment: fixed; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Dark background with some transparency */
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            justify-content: center; /* Center the table */
+        }
+
+        table {
+            width: 70%; /* Limit the table width to 70% of the screen */
+            max-width: 900px; /* Maximum width of the table */
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+            background-color: rgba(0, 0, 0, 0.6); /* Transparent black background for the cells */
+            color: white;
+        }
+
+        th {
+            background-color: rgba(0, 0, 0, 0.8); /* Darker transparent background for the header */
+        }
+
+        td audio {
+            width: 100%; /* Make audio player responsive to the width of the table cell */
+            max-width: 300px; /* Limit max width of the audio player */
+        }
+
+        /* Make the audio player better fit the width */
+        td {
+            width: 33%; /* Make each cell take up equal space */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Album List</h1>
+        <p>Pablo Honey is the First album by Radiohead in 1993</p>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Song Name</th>
+                    <th>Album Name</th>
+                    <th>Play</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01. You</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\01. You.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>02. Creep</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\02. Creep.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>03. How Do You</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\03. How Do You.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>04. Stop Whispering</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\04. Stop Whispering.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>05. Thinking About You</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\05. Thinking About You.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>06. Anyone Can Play Guitar</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\06. Anyone Can Play Guitar.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>07. Ripcord</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\07. Ripcord.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>08. Vegetable</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\08. Vegetable.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>09. Prove Yourself</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\09. Prove Yourself.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>10. I Can't</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\10. I Can't.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>11. Lurgee</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\11. Lurgee.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+                <tr>
+                    <td>12. Blow Out</td>
+                    <td>Pablo Honey</td>
+                    <td><audio controls>
+                        <source src="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Rock genre\Radiohead Artist Page ( AP )\01. Pablo Honey (1993)\Pablo Honey\12. Blow Out.mp3">
+                        Your browser does not support the audio element.
+                    </audio></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
