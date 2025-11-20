@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Website</title>
+      <style> 
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+              }
+
+             body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    margin: 0;
+                    padding: 0;
+                    background-image:url('https://images3.alphacoders.com/134/1344797.png');
+                    background-size: cover;
+                    background-position: center;
+                    background-attachment: fixed;
+                   }
+
+        /* Header Section */
+              header {
+                       background-color: rgba(51, 51, 51, 0.8); /* Adding transparency for better text visibility */
+                       color: white;
+                       padding: 20px;
+                       text-align: right;
+                      }
+
+              header h1 {
+                         margin: 0;
+                         font-size: 36px;
+                        }
+
+              nav ul {
+                      list-style-type: none;
+                      margin-left: 100px;
+                     }
+
+              nav ul li {
+                         display: inline;
+                        }
+
+            nav ul li a {
+                         color: #ecf2f2;
+                         text-decoration: none;
+                         font-size: 18px;
+                         }
+
+                   .hero {
+                           background-color: rgba(211, 211, 211, 0.5);
+                           text-align: center;
+                           padding: 50px 20px;
+                          }
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-image:url('https://images3.alphacoders.com/134/1344797.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: right;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            float: left;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #ecf2f2;
+            text-decoration: none;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .signin-container {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background: rgba(51, 51, 51, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            width: 300px;
+            text-align: center;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+      </style>
+      <script>
+        function toggleSignin() {
+            var signinBox = document.getElementById('loginBox');
+            signinBox.style.display = (signinBox.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+</head>
+<body>
+      
+       <header>
+        <div class="logo">
+            <h1>MusiRelm</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\2) Artist Section\Artists Section.html">Artists</a></li>
+                <li><a href="C:\Users\Sarthak Kulkarni\Documents\MusiRelm - MINI PROJECT\MINI Project\3) Genre Section\Genre CG.html">Genre</a></li>
+            </ul>
+        </nav>
+ 
+<nav>
+            <ul>
+                <li><a href="#" onclick="toggleLogin()">Signup</a></li>
+            </ul>
+        </nav>
+        <div class="sign up"-container" id="signupBox">
+            <h2>Sign-Up</h2>
+            <input type="text" placeholder="Username" required>
+            <input type="text" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button>Sign-Up</button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>WELCOME to <b>MusiRELM</b></h1>
+        <p>This website contains of 2 Navigating Menu options for the visitor to go through:<br>1) Artists<br>2) Genre</h2></p>
+    </section>
+
+</body>
+</html>
