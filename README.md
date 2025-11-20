@@ -1,5 +1,7 @@
 This ReadME file explains all the web-pages created for the project in short. Consider it the guide of the project.
 
+This website is only a STATIC FRONT-UI REPRESENTATION
+
 This prototype version contains :
 
 Home.html - This is the main webpage where user comes.
